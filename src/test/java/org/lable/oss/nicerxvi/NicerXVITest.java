@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lable.oss.nicerhex;
+package org.lable.oss.nicerxvi;
 
 import org.junit.Test;
 import org.lable.oss.bitsandbytes.Binary;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-import static org.lable.oss.nicerhex.NicerHex.decode;
-import static org.lable.oss.nicerhex.NicerHex.encode;
+import static org.lable.oss.nicerxvi.NicerXVI.decode;
+import static org.lable.oss.nicerxvi.NicerXVI.encode;
 
-public class NicerHexTest {
+public class NicerXVITest {
     @Test
     public void usageExampleTest() {
         byte[] input = "TEST1234".getBytes();

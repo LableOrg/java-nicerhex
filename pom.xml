@@ -25,17 +25,17 @@
     <version>1.7</version>
   </parent>
 
-  <groupId>org.lable.oss.nicerhex</groupId>
-  <artifactId>nicerhex</artifactId>
+  <groupId>org.lable.oss.nicerxvi</groupId>
+  <artifactId>nicerxvi</artifactId>
   <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Nicerhex</name>
+  <name>NicerXVI</name>
   <description>
-    Base16 string encoding and decoding intented for use with short user-visible identifiers.
+    Base16 string encoding and decoding intended for use with short user-visible identifiers.
   </description>
   <inceptionYear>2017</inceptionYear>
-  <url>https://github.com/LableOrg/java-nicerhex</url>
+  <url>https://github.com/LableOrg/java-nicerxvi</url>
 
   <properties>
     <java.language.level>1.7</java.language.level>
@@ -50,9 +50,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:LableOrg/java-nicerhex.git</connection>
-    <developerConnection>scm:git:git@github.com:LableOrg/java-nicerhex.git</developerConnection>
-    <url>https://github.com/LableOrg/java-nicerhex</url>
+    <connection>scm:git:git@github.com:LableOrg/java-nicervxi.git</connection>
+    <developerConnection>scm:git:git@github.com:LableOrg/java-nicerxvi.git</developerConnection>
+    <url>https://github.com/LableOrg/java-nicerxvi</url>
     <tag>HEAD</tag>
   </scm>
 

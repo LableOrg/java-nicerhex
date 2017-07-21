@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lable.oss.nicerhex;
+package org.lable.oss.nicerxvi;
 
 /**
  * Conversion of byte arrays to and from Base16 string representations. The characters used in the string
  * representation are a selection of sixteen lowercase consonants, suitable for use in user-visible strings.
- * Ambiguous characters such as 'i' and 'j' are not used.
+ * Potentially ambiguous characters such as 'i' and 'j' are not used.
  */
-public class NicerHex {
+public class NicerXVI {
     /**
      * The sixteen characters used by this codec, mapped to their four bit value.
      * <p>
@@ -54,7 +54,7 @@ public class NicerHex {
     };
 
     /**
-     * Convert a byte array to a NicerHex string representation.
+     * Convert a byte array to a NicerXVI string representation.
      *
      * @param input Input bytes, may not be null.
      * @return A string.
@@ -76,9 +76,9 @@ public class NicerHex {
     }
 
     /**
-     * Convert a NicerHex string representation into the data it represents.
+     * Convert a NicerXVI string representation into the data it represents.
      *
-     * @param input Input string, must contain valid NicerHex notation, and may not be null.
+     * @param input Input string, must contain valid NicerXVI notation, and may not be null.
      * @return A byte array.
      */
     public static byte[] decode(String input) {

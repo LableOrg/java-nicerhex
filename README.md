@@ -1,7 +1,7 @@
-NicerHex 
+NicerXVI
 ========
 
-Base16 string encoding and decoding intented for use with short user-visible identifiers.
+Base16 string encoding and decoding intended for use with short user-visible identifiers.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ unambiguous letters. The sixteen letters used are:
 x c d f g k m p q r s t v w b z
 ```
 
-Vowels are omitted to prevent strings from containing unintended words.
+Vowels are omitted to prevent strings from unintentionally containing words.
 
 ## Installation
 
@@ -20,9 +20,9 @@ This library is available on Maven Central:
 
 ```
 <dependency>
-    <groupId>org.lable.oss.nicerhex</groupId>
-    <artifactId>nicerhex</artifactId>
-    <version>1.0</version>
+    <groupId>org.lable.oss.nicerxvi</groupId>
+    <artifactId>nicerxvi</artifactId>
+    <version>1.1</version>
 </dependency>
 ```
 
@@ -31,11 +31,11 @@ This library is available on Maven Central:
 ```java
 byte[] inputByteValue = "TEST1234".getBytes();
 
-String nicerHexString = NicerHex.encode(inputByteValue);
+String nicerXVIString = NicerXVI.encode(inputByteValue);
 
-// nicerHexString = "kggkkfkgfcfdfffg";
+// nicerXVIString = "kggkkfkgfcfdfffg";
 
-byte[] outputByteValue = NicerHex.decode(nicerHexString);
+byte[] outputByteValue = NicerXVI.decode(nicerXVIString);
 
 // Arrays.equals(inputByteValue, outputByteValue) == true
 ```
