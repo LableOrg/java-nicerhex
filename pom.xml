@@ -73,6 +73,7 @@
       <groupId>org.lable.oss.bitsandbytes</groupId>
       <artifactId>bitsandbytes</artifactId>
       <version>${bitsandbytes.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
